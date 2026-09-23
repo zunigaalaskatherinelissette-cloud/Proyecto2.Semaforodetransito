@@ -1,0 +1,39 @@
+body {
+ margin: 0;
+ background: #0f172a;
+ color: white;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ font-family: sans-serif;
+}
+.semaforo {
+ background: #1e293b;
+ padding: 16px;
+ border-radius: 20px;
+ border: 3px solid #334155;
+ display: flex;
+ flex-direction: column;
+ gap: 12px;
+}
+.luz {
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ opacity: 0.2;
+}
+.red { background: #ef4444; }
+.yellow { background: #eab308; }
+.green { background: #10b981; }
+.activo { opacity: 1; box-shadow: 0 0 15px currentColor; }
+button {
+ margin-top: 15px;
+ padding: 10px 20px;
+ background: #2563eb;
+ color: white;
+ border: none;
+ border-radius: 6px;
+ cursor: pointer;
+}
